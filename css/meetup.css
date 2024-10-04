@@ -43,7 +43,7 @@
 }
 
 body::after {
-    content: url("../images/logo_event.svg");
+    content: url("../images/logo_event.png");
     position: fixed;
     left: -150px;
     bottom: -20px;
@@ -94,7 +94,7 @@ img {
 
 
 .reveal .progress {
-    color: #1BC1E4;
+    color: #EA1F26;
     height: 7px;
 }
 

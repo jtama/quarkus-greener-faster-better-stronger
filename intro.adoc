@@ -32,6 +32,8 @@ icon:github[] @jtama image:avatar.png[width=100]
 
 image::quarkus-minio.png[background, size=contain]
 
+
+
 === !
 
 image::acme.png[background, size=contain, border-radius=50%]
