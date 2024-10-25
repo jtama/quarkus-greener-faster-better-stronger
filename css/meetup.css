@@ -45,8 +45,8 @@
 body::after {
     content: url("../images/logo_event.png");
     position: fixed;
-    left: -150px;
-    bottom: -20px;
+    left: -100px;
+    bottom: -100px;
     transform: scale(.5);
 }
 
@@ -136,4 +136,57 @@ img {
 
 .blur {
     filter: blur(4px);
+}
+
+.pockemon {
+    position: absolute;
+    right: 415px;
+    bottom: 322px;
+    animation: pokemon 5s ease 0s 1 normal forwards;
+}
+
+@keyframes pokemon {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(-45px) rotate(-25deg);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(-24px);
+    }
+
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(-12px);
+    }
+
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(-6px);
+    }
+
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(-4px) rotate(5deg);;
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px) rotate(-25deg);;
+    }
 }

@@ -1,6 +1,11 @@
 [%notitle.columns.is-vcentered.transparency]
 == Présentation
 
+[.pockemon]
+--
+image::pokemon.svg[]
+--
+
 [.column.is-one-third]
 --
 image::jta.png[]
